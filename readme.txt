@@ -52,7 +52,7 @@ def connect_to_db():
 
 Configuración de Parámetros
 
-Es posible que necesites ajustar algunos parámetros en bd.py para conectarte a tu base de datos de MySQL:
+Es posible que necesites ajustar algunos parámetros en database.py para conectarte a tu base de datos de MySQL:
 
     host: Deja "localhost" si la base de datos está en tu propia máquina. Cambia esto a una dirección IP o nombre de host si la base de datos está en un servidor remoto.
     user: Reemplaza "root" con el nombre de usuario de MySQL que tengas configurado.
@@ -75,7 +75,7 @@ Las siguientes librerías son necesarias para ejecutar el proyecto. Puedes insta
 
 pip install -r requirements.txt
 
-Aquí tienes un ejemplo con las librerías necesarias:
+Aquí tienes un ejemplo del archivo requirements.txt con las librerías necesarias:
 
 numpy
 deap
