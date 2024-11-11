@@ -97,7 +97,7 @@ python main.py
 Estructura del Proyecto
 
     main.py: Archivo principal que ejecuta la optimización de patrullaje.
-    bd.py: Configuración de conexión a la base de datos.
+    database.py: Configuración de conexión a la base de datos.
     genetic_operations.py: Funciones de inicialización, mutación y cruce para el algoritmo genético.
     evaluation.py: Función de evaluación de fitness para el algoritmo genético.
     evaluation_deterministic.py: Función de evaluación determinista.
